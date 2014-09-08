@@ -1,13 +1,19 @@
+---
+---
+
+
 * {
 	margin: 0;
 	padding: 0;
 }
 
 body {
-	color: #DDD;
-	background-color: #25252C;
-	font-family: 'Lora', serif;
-	-webkit-font-smoothing: antialiased;
+	// color: #DDD;
+	color: #444;
+	// background-color: #25252C;
+	background-color: #EEE;
+	font-family: 'Georgia', serif;
+	// -webkit-font-smoothing: antialiased;
 	
 	a {
 		color: #F42;
@@ -26,7 +32,7 @@ body {
 	background-color: #2D2C35;
 	border-bottom: 1px solid #484852;
 	background-image: url(/img/pixels.png);
-	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-family: 'Helvetica Neue', sans-serif;
 	height: 120px;
 	
 	h1 a {
@@ -69,9 +75,9 @@ body {
 	max-width: 800px;
 	margin: auto;
 	padding: 68px;
-	font-size: 18px;
+	font-size: 1.5em;
 	line-height: 150%;
-	text-shadow: 0px 1px 1px #080812;
+	// text-shadow: 0px 1px 1px #080812;
 	clear: both;
 	border-bottom: 1px solid #35333C;
 	
@@ -98,19 +104,19 @@ body {
 	}
 	
 	h1, h2, h3 {
-		font-family: 'Open Sans', Helvetica, sans-serif;
-		color: #FFF;
+		font-family: 'Helvetica Neue', sans-serif;
+		color: #000;
 		font-weight: normal;
 		line-height: 132%;
 		margin-bottom: 0;
 	}
 	
 	h1 {
-		font-size: 32px;
+		font-size: 48px;
 	}
 	
 	h2 {
-		font-size: 24px;
+		font-size: 32px;
 		margin-top: 32px;
 	}
 	
@@ -153,7 +159,7 @@ body {
 	max-width: 800px;
 	margin: auto;
 	padding: 68px 80px;
-	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-family: 'Helvetica Neue', sans-serif;
 	text-align: right;
 }
 
